@@ -1,508 +1,509 @@
 <!DOCTYPE html>
-<html class="scroll-smooth">
-
+<html lang="en" class="scroll-smooth">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kostlab</title>
-  <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div class=" bg-white -z-50">
-    <!-- <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
-          <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
-            <path fill="url(#9b2541ea-d39d-499b-bd42-aeea3e93f5ff)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
-            <defs>
-              <linearGradient id="9b2541ea-d39d-499b-bd42-aeea3e93f5ff" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#9089FC"></stop>
-                <stop offset="1" stop-color="#FF80B5"></stop>
-              </linearGradient>
-            </defs>
-          </svg>
-        </div> -->
-    <div class="px-6 pt-6 mx-auto max-w-7xl">
-      <nav class="flex items-center justify-between" aria-label="Global">
-        <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
-            <a class="py-2 text-zinc-800 text-2xl font-black" href="index.html">Kostlab</a>
-          </a>
-        </div>
-        <div class="flex lg:hidden">
-          <button id="btnmenu" type="button"
-            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Open main menu</span>
-            <!-- Heroicon name: outline/bars-3 -->
-            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+  <body>
+    <div class=" bg-white -z-50">
+      <!-- <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
+            <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
+              <path fill="url(#9b2541ea-d39d-499b-bd42-aeea3e93f5ff)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
+              <defs>
+                <linearGradient id="9b2541ea-d39d-499b-bd42-aeea3e93f5ff" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#9089FC"></stop>
+                  <stop offset="1" stop-color="#FF80B5"></stop>
+                </linearGradient>
+              </defs>
             </svg>
-          </button>
-        </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-          <a href="services.html" class="text-sm font-semibold leading-6 text-gray-900">Services</a>
-
-          <a href="works.html" class="text-sm font-semibold leading-6 text-gray-900">Work</a>
-
-          <a href="about.html" class="text-sm font-semibold leading-6 text-gray-900">About</a>
-        </div>
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://wa.me/62895361168623" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Contact Us<span class="pl-4" aria-hidden="true">&rarr;</span></a>
-        </div>
-      </nav>
-      <!-- Mobile menu, show/hide based on menu open state. -->
-      <div role="dialog" aria-modal="true">
-        <div id="menu" focus="true" class="fixed inset-x-0 top-0 z-50 overflow-y-auto bg-white px-6 py-6 lg:hidden hidden drop-shadow-2xl">
-          <div class="flex items-center justify-between">
-            <a class="py-2 text-zinc-800 text-2xl font-black" href="index.html">Kostlab</a>
-            <button id="btnclose" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 justify-end">
-              <span class="sr-only">Close menu</span>
-              <!-- Heroicon name: outline/x-mark -->
+          </div> -->
+      <div class="px-6 pt-6 mx-auto max-w-7xl">
+        <nav class="flex items-center justify-between" aria-label="Global">
+          <div class="flex lg:flex-1">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+              <a class="py-2 text-zinc-800 text-2xl font-black" href="index.html">Kostlab</a>
+            </a>
+          </div>
+          <div class="flex lg:hidden">
+            <button id="btnmenu" type="button"
+              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Open main menu</span>
+              <!-- Heroicon name: outline/bars-3 -->
               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
             </button>
           </div>
-          <div class="mt-6 flow-root">
-            <div class="-my-6 divide-y divide-gray-500/10">
-              <div class="space-y-2 py-6">
-                <a href="services.html"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Services</a>
-
-                <a href="works.html"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Work</a>
-
-                <a href="about.html"
-                  class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">About</a>
-              </div>
-              <div class="py-6">
-                <a href="#" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Free Consultant<span
-                    class="pl-4" aria-hidden="true">&rarr;</span></a>
+          <div class="hidden lg:flex lg:gap-x-12">
+            <a href="services.html" class="text-sm font-semibold leading-6 text-gray-900">Services</a>
+  
+            <a href="works.html" class="text-sm font-semibold leading-6 text-gray-900">Work</a>
+  
+            <a href="about.html" class="text-sm font-semibold leading-6 text-gray-900">About</a>
+          </div>
+          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <a href="https://wa.me/62895361168623" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Contact Us<span class="pl-4" aria-hidden="true">&rarr;</span></a>
+          </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div role="dialog" aria-modal="true">
+          <div id="menu" focus="true" class="fixed inset-x-0 top-0 z-50 overflow-y-auto bg-white px-6 py-6 lg:hidden hidden drop-shadow-2xl">
+            <div class="flex items-center justify-between">
+              <a class="py-2 text-zinc-800 text-2xl font-black" href="index.html">Kostlab</a>
+              <button id="btnclose" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 justify-end">
+                <span class="sr-only">Close menu</span>
+                <!-- Heroicon name: outline/x-mark -->
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="mt-6 flow-root">
+              <div class="-my-6 divide-y divide-gray-500/10">
+                <div class="space-y-2 py-6">
+                  <a href="services.html"
+                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Services</a>
+  
+                  <a href="works.html"
+                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Work</a>
+  
+                  <a href="about.html"
+                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">About</a>
+                </div>
+                <div class="py-6">
+                  <a href="#" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Free Consultant<span
+                      class="pl-4" aria-hidden="true">&rarr;</span></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <main>
-      <div class="py-24 sm:py-32 lg:pb-24">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="flex flex-col md:flex-row justify-between md:space-x-24 items-center">
-            <div>
-              <h1 class="text-4xl text-center font-bold tracking-tight text-gray-900 md:text-left lg:text-8xl">Bring
-                Your</h1>
-              <h1 class="text-4xl text-center font-bold tracking-tight md:text-left lg:text-8xl text-sky-500">Idea Into
-                Reality</h1>
+      <main>
+        <div class="py-24 sm:py-32 lg:pb-24">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between md:space-x-24 items-center">
+              <div>
+                <h1 class="text-4xl text-center font-bold tracking-tight text-gray-900 md:text-left lg:text-8xl">Bring
+                  Your</h1>
+                <h1 class="text-4xl text-center font-bold tracking-tight md:text-left lg:text-8xl text-sky-500">Idea Into
+                  Reality</h1>
+              </div>
+              <div class="flex flex-col justify-start gap-x-6 w-full md:w-72">
+                <p class="mb-4 text-lg text-center md:text-start leading-7 text-gray-600">We create digital solution from
+                  scratch</p>
+                <a href="#company"
+                  class="text-base py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 flex justify-between">Learn
+                  more <span aria-hidden="true">→</span></a>
+              </div>
             </div>
-            <div class="flex flex-col justify-start gap-x-6 w-full md:w-72">
-              <p class="mb-4 text-lg text-center md:text-start leading-7 text-gray-600">We create digital solution from
-                scratch</p>
-              <a href="#company"
-                class="text-base py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 flex justify-between">Learn
-                more <span aria-hidden="true">→</span></a>
+            <div class="mt-16 flow-root sm:mt-24">
+              <img class="w-full h-auto" src="img/img-hero.png" alt="">
             </div>
           </div>
-          <div class="mt-16 flow-root sm:mt-24">
-            <img class="w-full h-auto" src="img/img-hero.png" alt="">
-          </div>
+          <!-- <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+                <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
+                  <path fill="url(#b9e4a85f-ccd5-4151-8e84-ab55c66e5aa1)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
+                  <defs>
+                    <linearGradient id="b9e4a85f-ccd5-4151-8e84-ab55c66e5aa1" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#9089FC"></stop>
+                      <stop offset="1" stop-color="#FF80B5"></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div> -->
         </div>
-        <!-- <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
-              <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
-                <path fill="url(#b9e4a85f-ccd5-4151-8e84-ab55c66e5aa1)" fill-opacity=".3" d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
-                <defs>
-                  <linearGradient id="b9e4a85f-ccd5-4151-8e84-ab55c66e5aa1" x1="1155.49" x2="-78.208" y1=".177" y2="474.645" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#9089FC"></stop>
-                    <stop offset="1" stop-color="#FF80B5"></stop>
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div> -->
-      </div>
-    </main>
-  </div>
-
-
-  <div class="bg-white" id="company">
-    <div class="mx-auto max-w-7xl py-12 px-6 lg:py-40 lg:px-8">
-      <h2 class="text-center text-4xl font-semibold text-zinc-900">The Companies Use Our Services</h2>
-      <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-3 lg:mt-14">
-        <a href="https://bebasjamkerja.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50 border-2 py-8 px-8">
-          <img class="max-h-12" src="img/logo/bjk-logo.png" alt="Workcation">
-        </a>
-        <a href="https://pake.ai/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50 border-2 py-8 px-8">
-          <img class="max-h-12" src="img/logo/pakeai-logo.svg" alt="Workcation">
-        </a>
-        <a href="https://lulusnegeri.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50  border-2 py-8 px-8">
-          <img class="max-h-12" src="img/logo/ln-logo.png" alt="Workcation">
-        </a>
-        <a href="https://www.sucaber.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50  border-2 py-8 px-8">
-          <img class="max-h-12" src="img/logo/sucaber-logo.png" alt="Workcation">
-        </a>
-        <a href="https://www.sucaber.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50  border-2 py-8 px-8">
-          <img class="max-h-12" src="img/logo/technogaku-logo.png" alt="Workcation">
-        </a>
+      </main>
+    </div>
+  
+  
+    <div class="bg-white" id="company">
+      <div class="mx-auto max-w-7xl py-12 px-6 lg:py-40 lg:px-8">
+        <h2 class="text-center text-4xl font-semibold text-zinc-900">The Companies Use Our Services</h2>
+        <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-3 lg:mt-14">
+          <a href="https://bebasjamkerja.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50 border-2 py-8 px-8">
+            <img class="max-h-12" src="img/logo/bjk-logo.png" alt="Workcation">
+          </a>
+          <a href="https://pake.ai/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50 border-2 py-8 px-8">
+            <img class="max-h-12" src="img/logo/pakeai-logo.svg" alt="Workcation">
+          </a>
+          <a href="https://lulusnegeri.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50  border-2 py-8 px-8">
+            <img class="max-h-12" src="img/logo/ln-logo.png" alt="Workcation">
+          </a>
+          <a href="https://www.sucaber.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50  border-2 py-8 px-8">
+            <img class="max-h-12" src="img/logo/sucaber-logo.png" alt="Workcation">
+          </a>
+          <a href="https://www.sucaber.com/" class="col-span-1 flex justify-center outline-1 outline-gray-50 hover:bg-gray-50  border-2 py-8 px-8">
+            <img class="max-h-12" src="img/logo/technogaku-logo.png" alt="Workcation">
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="relative isolate bg-white">
-    <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-      <defs>
-        <pattern id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527" width="200" height="200" x="50%" y="-1"
-          patternUnits="userSpaceOnUse">
-          <path d="M100 200V.5M.5 .5H200" fill="none" />
-        </pattern>
-      </defs>
-      <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
-        <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-          stroke-width="0" />
+  
+    <div class="relative isolate bg-white">
+      <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
+        <defs>
+          <pattern id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527" width="200" height="200" x="50%" y="-1"
+            patternUnits="userSpaceOnUse">
+            <path d="M100 200V.5M.5 .5H200" fill="none" />
+          </pattern>
+        </defs>
+        <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+          <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+            stroke-width="0" />
+        </svg>
+        <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
       </svg>
-      <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
-    </svg>
-    <div class="mx-auto max-w-7xl px-6 py-6 sm:py-32 lg:flex lg:items-center lg:gap-x-24 lg:px-8 lg:py-40">
-      <div class="mx-auto lg:mx-0 lg:flex-auto">
-        <h2 class="mt-10 max-w-lg text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"> Who <span class="text-primary-one">We Are</span> ?</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-600">We young talent with big dream to help grown your own business.
-          We ready to help anyone who need our Services to deliver your idea into digital asset</p>
-        <div class="mt-10 flex items-center gap-x-6">
-          <a href="https://wa.me/62895361168623" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Start Project <span
-              class="pl-4" aria-hidden="true">&rarr;</span></a>
+      <div class="mx-auto max-w-7xl px-6 py-6 sm:py-32 lg:flex lg:items-center lg:gap-x-24 lg:px-8 lg:py-40">
+        <div class="mx-auto lg:mx-0 lg:flex-auto">
+          <h2 class="mt-10 max-w-lg text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"> Who <span class="text-primary-one">We Are</span> ?</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">We young talent with big dream to help grown your own business.
+            We ready to help anyone who need our Services to deliver your idea into digital asset</p>
+          <div class="mt-10 flex items-center gap-x-6">
+            <a href="https://wa.me/62895361168623" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Start Project <span
+                class="pl-4" aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="flex justify-center flex-shrink lg:flex-shrink-0">
+          <img src="img/img-we.png" alt="App screenshot" class="w-full h-auto lg:mt-0 mt-16">
         </div>
       </div>
-      <div class="flex justify-center flex-shrink lg:flex-shrink-0">
-        <img src="img/img-we.png" alt="App screenshot" class="w-full h-auto lg:mt-0 mt-16">
+    </div>
+  
+  
+  
+    <!-- This example requires Tailwind CSS v3.0+ -->
+    <div class="bg-white my-24">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Servicess Can We Help </h2>
+          <h2 class="text-3xl font-bold tracking-tight text-sky-500 sm:text-4xl">Grown Your Business</h2>
+        </div>
+        <ul role="list" class="mx-auto mt-10 grid grid-cols-1 gap-16 md:grid-cols-2">
+          <li class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
+            <img class="aspect-[3/2] w-full object-cover" src="img/img-web.png" alt="">
+            <div class="pb-6">
+              <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Web Development</h3>
+              <p class="text-base leading-7 text-gray-600">Our Talent</p>
+              <div class="mt-4  flex -space-x-2 overflow-hidden">
+                <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+                <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+              </div>
+            </div>
+          </li>
+  
+          <li
+            class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
+            <img class="aspect-[3/2] w-full object-cover" src="img/img-uiux.png" alt="">
+            <div class="pb-6">
+              <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">UI/UX Design</h3>
+              <p class="text-base leading-7 text-gray-600">Our Talent</p>
+              <div class="mt-4  flex -space-x-2 overflow-hidden">
+                <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="img/profile/profile-mamun.jpg" alt="">
+              </div>
+            </div>
+          </li>
+  
+          <li
+            class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
+            <img class="aspect-[3/2] w-full object-cover" src="img/img-3d.png" alt="">
+            <div class="pb-6">
+              <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">3D Design</h3>
+              <p class="text-base leading-7 text-gray-600">Our Talent</p>
+              <div class="mt-4  flex -space-x-2 overflow-hidden">
+                <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+                <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+                <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+                  alt="">
+                <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+              </div>
+            </div>
+          </li>
+  
+          <li
+            class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
+            <img class="aspect-[3/2] w-full object-cover" src="img/img-graphic.png" alt="">
+            <div class="pb-6">
+              <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Graphic Design</h3>
+              <p class="text-base leading-7 text-gray-600">Our Talent</p>
+              <div class="mt-4  flex -space-x-2 overflow-hidden">
+                <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+                <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+                <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+                  alt="">
+                <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="">
+              </div>
+            </div>
+          </li>
+  
+          <!-- More people... -->
+        </ul>
       </div>
     </div>
-  </div>
-
-
-
-  <!-- This example requires Tailwind CSS v3.0+ -->
-  <div class="bg-white my-24">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Servicess Can We Help </h2>
-        <h2 class="text-3xl font-bold tracking-tight text-sky-500 sm:text-4xl">Grown Your Business</h2>
+  
+    <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-14 gap-y-20 mx-auto max-w-7xl px-6 py-8 sm:py-24">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold">Our Amazing Work With</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-primary-one">Amazing Client</h2>
       </div>
-      <ul role="list" class="mx-auto mt-10 grid grid-cols-1 gap-16 md:grid-cols-2">
-        <li class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
-          <img class="aspect-[3/2] w-full object-cover" src="img/img-web.png" alt="">
-          <div class="pb-6">
-            <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Web Development</h3>
-            <p class="text-base leading-7 text-gray-600">Our Talent</p>
-            <div class="mt-4  flex -space-x-2 overflow-hidden">
-              <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-              <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-            </div>
-          </div>
-        </li>
-
-        <li
-          class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
-          <img class="aspect-[3/2] w-full object-cover" src="img/img-uiux.png" alt="">
-          <div class="pb-6">
-            <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">UI/UX Design</h3>
-            <p class="text-base leading-7 text-gray-600">Our Talent</p>
-            <div class="mt-4  flex -space-x-2 overflow-hidden">
-              <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="img/profile/profile-mamun.jpg" alt="">
-            </div>
-          </div>
-        </li>
-
-        <li
-          class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
-          <img class="aspect-[3/2] w-full object-cover" src="img/img-3d.png" alt="">
-          <div class="pb-6">
-            <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">3D Design</h3>
-            <p class="text-base leading-7 text-gray-600">Our Talent</p>
-            <div class="mt-4  flex -space-x-2 overflow-hidden">
-              <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-              <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-              <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-                alt="">
-              <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-            </div>
-          </div>
-        </li>
-
-        <li
-          class="p-6 hover:shadow-2xl hover:outline-none transition hover:delay-150 duration-300 ease-in-out">
-          <img class="aspect-[3/2] w-full object-cover" src="img/img-graphic.png" alt="">
-          <div class="pb-6">
-            <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Graphic Design</h3>
-            <p class="text-base leading-7 text-gray-600">Our Talent</p>
-            <div class="mt-4  flex -space-x-2 overflow-hidden">
-              <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-              <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-              <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-                alt="">
-              <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt="">
-            </div>
-          </div>
-        </li>
-
-        <!-- More people... -->
-      </ul>
-    </div>
-  </div>
-
-  <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-14 gap-y-20 mx-auto max-w-7xl px-6 py-8 sm:py-24">
-    <div>
-      <h2 class="text-3xl md:text-4xl font-bold">Our Amazing Work With</h2>
-      <h2 class="text-3xl md:text-4xl font-bold text-primary-one">Amazing Client</h2>
-    </div>
-    <!-- ... -->
-    <div>
-      <h3 class="text-1xl md:text-2xl font-bold">Category</h3>
-      <div class="flex mt-4 gap-2 align-middle">
-        <a href="#" class="bg-zinc-800 px-4 py-2 text-xs font-semibold leading-6 text-white inline-block align-middle">All</a>
-        <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">Web Depelopment</a>
-        <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">UI Design</a>
-        <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">Graphic Design</a>
-        <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">3D Design</a>
+      <!-- ... -->
+      <div>
+        <h3 class="text-1xl md:text-2xl font-bold">Category</h3>
+        <div class="flex mt-4 gap-2 align-middle">
+          <a href="#" class="bg-zinc-800 px-4 py-2 text-xs font-semibold leading-6 text-white inline-block align-middle">All</a>
+          <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">Web Depelopment</a>
+          <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">UI Design</a>
+          <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">Graphic Design</a>
+          <a href="#" class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900 inline-block align-middle">3D Design</a>
+        </div>
+      </div>
+  
+      <div>
+        <img class="w-full object-cover h-96 max-h-96" src="img/project/img-sucaber.png" alt="">
+      </div>
+      <div class="self-center">
+        <h3 class="text-2xl md:text-3xl font-bold">Sucaber</h3>
+        <p class="text-xs">Team who involve</p>
+        <div class="mt-4  flex -space-x-2 overflow-hidden">
+          <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="">
+          <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="">
+          <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+            alt="">
+          <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="">
+        </div>
+        <hr class="my-8">
+        <p class="text-base">We create company profile from scratch which is we have to doing research and then we create
+          into UI Design and transform into website</p>
+        <div class="flex mt-4 mb-8 gap-2">
+          <a href="#"
+            class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">Graphic
+            Design</a>
+          <a href="#"
+            class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">3D
+            Design</a>
+        </div>
+        <a href="#" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Let's See <span class="pl-4"
+            aria-hidden="true">&rarr;</span></a>
+      </div>
+  
+      <div>
+        <img class="w-full object-cover h-96 max-h-96" src="img/project/img-bebasjamkerja.png" alt="">
+      </div>
+      <div class="self-center">
+        <h3 class="text-2xl md:text-3xl font-bold">Bebasjamkerja</h3>
+        <p class="text-xs">Team who involve</p>
+        <div class="mt-4  flex -space-x-2 overflow-hidden">
+          <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="">
+          <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="">
+          <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
+            alt="">
+          <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="">
+        </div>
+        <hr class="my-8">
+        <p class="text-base">We create company profile from scratch which is we have to doing research and then we create
+          into UI Design and transform into website</p>
+        <div class="flex mt-4 mb-8 gap-2">
+          <a href="#"
+            class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">Graphic
+            Design</a>
+          <a href="#"
+            class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">3D
+            Design</a>
+        </div>
+        <a href="#" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Let's See <span class="pl-4"
+            aria-hidden="true">&rarr;</span></a>
       </div>
     </div>
-
-    <div>
-      <img class="w-full object-cover h-96 max-h-96" src="img/img-hero.png" alt="">
-    </div>
-    <div class="self-center">
-      <h3 class="text-2xl md:text-3xl font-bold">Sucaber</h3>
-      <p class="text-xs">Team who involve</p>
-      <div class="mt-4  flex -space-x-2 overflow-hidden">
-        <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          alt="">
-        <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          alt="">
-        <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-          alt="">
-        <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          alt="">
-      </div>
-      <hr class="my-8">
-      <p class="text-base">We create company profile from scratch which is we have to doing research and then we create
-        into UI Design and transform into website</p>
-      <div class="flex mt-4 mb-8 gap-2">
-        <a href="#"
-          class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">Graphic
-          Design</a>
-        <a href="#"
-          class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">3D
-          Design</a>
-      </div>
-      <a href="#" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Let's See <span class="pl-4"
-          aria-hidden="true">&rarr;</span></a>
-    </div>
-
-    <div>
-      <img class="w-full object-cover h-96 max-h-96" src="img/img-hero.png" alt="">
-    </div>
-    <div class="self-center">
-      <h3 class="text-2xl md:text-3xl font-bold">Bebasjamkerja</h3>
-      <p class="text-xs">Team who involve</p>
-      <div class="mt-4  flex -space-x-2 overflow-hidden">
-        <img class="relative z-30 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          alt="">
-        <img class="relative z-20 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          alt="">
-        <img class="relative z-10 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-          alt="">
-        <img class="relative z-0 inline-block h-8 w-8 rounded-full ring-2 ring-white"
-          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          alt="">
-      </div>
-      <hr class="my-8">
-      <p class="text-base">We create company profile from scratch which is we have to doing research and then we create
-        into UI Design and transform into website</p>
-      <div class="flex mt-4 mb-8 gap-2">
-        <a href="#"
-          class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">Graphic
-          Design</a>
-        <a href="#"
-          class="text-xs hover:bg-zinc-800 hover:text-white py-1 px-4 outline outline-1 font-semibold leading-7 text-gray-900">3D
-          Design</a>
-      </div>
-      <a href="#" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Let's See <span class="pl-4"
-          aria-hidden="true">&rarr;</span></a>
-    </div>
-  </div>
-
-  <div class="bg-white py-24 sm:py-16">
-    <div class="mx-auto grid max-w-7xl gap-y-20 gap-x-12 px-6 lg:px-8 xl:grid-cols-3">
-      <div class="max-w-2xl">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet Our Talent</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-600">We create company profile from scratch which is we have to doing
-          research and then we create into UI Design and transform into website</p>
-      </div>
-
-      <ul role="list" class="grid gap-x-8 gap-y-12 grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
-        <li>
-          <div class="flex items-center gap-x-6">
-            <img class="h-16 w-16" src="img/profile/profile-mamun.jpg" alt="">
-            <div>
-              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Mamun B</h3>
-              <p class="text-sm font-semibold leading-6 text-sky-500">Designer</p>
+  
+    <div class="bg-white py-24 sm:py-16">
+      <div class="mx-auto grid max-w-7xl gap-y-20 gap-x-12 px-6 lg:px-8 xl:grid-cols-3">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet Our Talent</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">We create company profile from scratch which is we have to doing
+            research and then we create into UI Design and transform into website</p>
+        </div>
+  
+        <ul role="list" class="grid gap-x-8 gap-y-12 grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16" src="img/profile/profile-mamun.jpg" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Mamun B</h3>
+                <p class="text-sm font-semibold leading-6 text-sky-500">Designer</p>
+              </div>
             </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="flex items-center gap-x-6">
-            <img class="h-16 w-16" src="img/profile/profile-imam.jpg" alt="">
-            <div>
-              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Imam Dwi Cahyo</h3>
-              <p class="text-sm font-semibold leading-6 text-sky-500">Web Developer</p>
+          </li>
+  
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16" src="img/profile/profile-imam.jpg" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Imam Dwi Cahyo</h3>
+                <p class="text-sm font-semibold leading-6 text-sky-500">Web Developer</p>
+              </div>
             </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="flex items-center gap-x-6">
-            <img class="h-16 w-16 object-cover"
-              src="img/profile/profile-doni.jpg"
-              alt="">
-            <div>
-              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Doni Hassan</h3>
-              <p class="text-sm font-semibold leading-6 text-sky-500">UI/UX Design</p>
+          </li>
+  
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 object-cover"
+                src="img/profile/profile-doni.jpg"
+                alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Doni Hassan</h3>
+                <p class="text-sm font-semibold leading-6 text-sky-500">UI/UX Design</p>
+              </div>
             </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="flex items-center gap-x-6">
-            <img class="h-16 w-16 object-cover"
-              src="img/profile/profile-gerdi.jpg"
-              alt="">
-            <div>
-              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Gerdi Abdisalam</h3>
-              <p class="text-sm font-semibold leading-6 text-sky-500">Graphic Design</p>
+          </li>
+  
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 object-cover"
+                src="img/profile/profile-gerdi.jpg"
+                alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Gerdi Abdisalam</h3>
+                <p class="text-sm font-semibold leading-6 text-sky-500">Graphic Design</p>
+              </div>
             </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="flex items-center gap-x-6">
-            <img class="h-16 w-16 object-cover"
-              src="img/profile/profile-esa.jpg"
-              alt="">
-            <div>
-              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Esa Maulana</h3>
-              <p class="text-sm font-semibold leading-6 text-sky-500">3D Design</p>
+          </li>
+  
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 object-cover"
+                src="img/profile/profile-esa.jpg"
+                alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Esa Maulana</h3>
+                <p class="text-sm font-semibold leading-6 text-sky-500">3D Design</p>
+              </div>
             </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="flex items-center gap-x-6">
-            <img class="h-16 w-16 object-cover"
-              src="img/profile/profile-fajar.png"
-              alt="">
-            <div>
-              <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">M Fajar I</h3>
-              <p class="text-sm font-semibold leading-6 text-sky-500">System Analyst</p>
+          </li>
+  
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 object-cover"
+                src="img/profile/profile-fajar.png"
+                alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">M Fajar I</h3>
+                <p class="text-sm font-semibold leading-6 text-sky-500">System Analyst</p>
+              </div>
             </div>
-          </div>
-        </li>
-        <!-- More people... -->
-      </ul>
-
-    </div>
-  </div>
-
-  <!-- This example requires Tailwind CSS v3.0+ -->
-  <div class="bg-gray-50">
-    <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 md:flex md:items-center md:justify-between lg:px-8">
-      <h2 class="text-4xl font-bold tracking-tight text-gray-900">Let's Start The Project<br><span class="text-primary-one">Free Consultant.</span></h2>
-      <div class="lg:flex md:mt-0 mt-8 lg:flex-1 lg:justify-end">
-        <a href="https://wa.me/62895361168623" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Contact Us <span class="pl-4" aria-hidden="true">&rarr;</span></a>
-      </div>    
-    </div>
-  </div>
-
-
-  <footer class="bg-white">
-    <div class="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
-      <div class="flex justify-center space-x-6 md:order-2">
-
-        <a href="#" class="text-gray-400 hover:text-gray-500">
-          <span class="sr-only">GitHub</span>
-          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path fill-rule="evenodd"
-              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-              clip-rule="evenodd" />
-          </svg>
-        </a>
-
-        <a href="#" class="text-gray-400 hover:text-gray-500">
-          <span class="sr-only">Dribble</span>
-          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10" />
-            <path
-              d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32" />
-          </svg>
-        </a>
-
-        <a href="#" class="">
-          <span class="sr-only">Dribble</span>
-          <svg class="h-6 w-6 text-gray-400 hover:text-gray-500" version="1.1" viewBox="0 0 24 24" xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
-            xmlns:xlink="http://www.w3.org/1999/xlink">
-            <rect height="24" id="Artboard13" style="fill:none;" width="24" x="0" y="0" />
-            <path
-              d="M15.153,16.996l2.288,3.963c0,0 -4.952,0 -8.808,0c-2.758,0 -5.299,-1.499 -6.633,-3.913c0,-0.001 0,-0.001 0,-0.001l0.029,-0.049l13.124,0Zm-4.798,-13.955c0,0 0,0 0,0c2.781,0 5.357,1.463 6.782,3.852c1.172,1.965 2.593,4.349 3.764,6.312c1.418,2.378 1.467,5.33 0.128,7.753c0,0.001 0,0.001 0,0.001l-0.33,0l-10.344,-17.918Zm3.168,11.133l-9.811,0l4.985,-8.359l4.826,8.359Z" />
-          </svg>
-        </a>
-
-      </div>
-      <div class="mt-8 md:order-1 md:mt-0">
-        <p class="text-center text-xs leading-5 text-gray-500">&copy; 2023 Design by Mamun B</p>
+          </li>
+          <!-- More people... -->
+        </ul>
+  
       </div>
     </div>
-  </footer>
-  <script>
-    const btnMenu = document.getElementById("btnmenu");
-    const dpMenu = document.getElementById("menu");
-    const btnClose = document.getElementById("btnclose");
-
-    btnMenu.onclick = function () {
-      dpMenu.classList.remove('hidden');
-    };
-
-    btnClose.onclick = function () {
-      dpMenu.classList.add('hidden');
-    };
-  </script>
+  
+    <!-- This example requires Tailwind CSS v3.0+ -->
+    <div class="bg-gray-50">
+      <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 md:flex md:items-center md:justify-between lg:px-8">
+        <h2 class="text-4xl font-bold tracking-tight text-gray-900">Let's Start The Project<br><span class="text-primary-one">Free Consultant.</span></h2>
+        <div class="lg:flex md:mt-0 mt-8 lg:flex-1 lg:justify-end">
+          <a href="https://wa.me/62895361168623" class="bg-zinc-800 px-4 py-2 text-sm font-semibold leading-6 text-white">Contact Us <span class="pl-4" aria-hidden="true">&rarr;</span></a>
+        </div>    
+      </div>
+    </div>
+  
+  
+    <footer class="bg-white">
+      <div class="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
+        <div class="flex justify-center space-x-6 md:order-2">
+  
+          <a href="#" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">GitHub</span>
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+  
+          <a href="#" class="text-gray-400 hover:text-gray-500">
+            <span class="sr-only">Dribble</span>
+            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path
+                d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32" />
+            </svg>
+          </a>
+  
+          <a href="#" class="">
+            <span class="sr-only">Dribble</span>
+            <svg class="h-6 w-6 text-gray-400 hover:text-gray-500" version="1.1" viewBox="0 0 24 24" xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect height="24" id="Artboard13" style="fill:none;" width="24" x="0" y="0" />
+              <path
+                d="M15.153,16.996l2.288,3.963c0,0 -4.952,0 -8.808,0c-2.758,0 -5.299,-1.499 -6.633,-3.913c0,-0.001 0,-0.001 0,-0.001l0.029,-0.049l13.124,0Zm-4.798,-13.955c0,0 0,0 0,0c2.781,0 5.357,1.463 6.782,3.852c1.172,1.965 2.593,4.349 3.764,6.312c1.418,2.378 1.467,5.33 0.128,7.753c0,0.001 0,0.001 0,0.001l-0.33,0l-10.344,-17.918Zm3.168,11.133l-9.811,0l4.985,-8.359l4.826,8.359Z" />
+            </svg>
+          </a>
+  
+        </div>
+        <div class="mt-8 md:order-1 md:mt-0">
+          <p class="text-center text-xs leading-5 text-gray-500">&copy; 2023 Design by Mamun B</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const btnMenu = document.getElementById("btnmenu");
+      const dpMenu = document.getElementById("menu");
+      const btnClose = document.getElementById("btnclose");
+  
+      btnMenu.onclick = function () {
+        dpMenu.classList.remove('hidden');
+      };
+  
+      btnClose.onclick = function () {
+        dpMenu.classList.add('hidden');
+      };
+    </script>
+  </body>
 </body>
-
 </html>
